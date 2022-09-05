@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+
+:root{
+    --bg_header:#255EE9
+}
+
 /*#region utilities*/
 
 .col_2{
@@ -17,64 +22,92 @@
     width: calc(100% / 12 * 8);
 }
 
-
-
-/*#region utilities*/
+/*#endregion utilities*/
 
 /*#region nav*/
 
-#site_header{
-    background-color: aqua;
-}
-
 nav{
     padding: 1rem;
+    background-color: var(--bg_header);
+}
+
+img{
+    display: flex;
 }
 
 .nav_bar{
-    padding: 0.5rem;
     width: 80%;
-    background-color: orange;
     margin: auto;
 }
 
 .nav_row{
     display: flex;
     justify-content: space-between;
-    width: 100%;
 }
 
 ul{
     display: flex;
-    gap: 30px;
+    gap: 3rem;
 }
 
 ul>li{
     list-style: none;
+    padding: 0.5rem;
 }
 
 li>a{
     text-decoration: none;
+    color: white;
 }
+
+#nav_button{
+    padding:  0rem 1rem;
+    border-radius: 1rem;
+    border:none;
+}
+
+
 /*#endregion nav*/
 
 /*#main*/
 
-#download{
-    background-color: blue;
+/*#region section_download*/
+
+#bg_main_speak{
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
     display: flex;
 }
 
 .description{
-    width: 60%;
-    height: 400px;
+    width: 50%;
     margin: auto;
-    background-color: violet;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    text-align: center;
+    color: white;
 }
 
+div.description>h1{
+    font-size: 3rem;
+}
 
+div.description>p{
+    margin-top:6rem ;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+div.description>button{
+    font-size: 1.5rem;
+    padding:  1rem 1rem;
+    border-radius: 2rem;
+    border: none;
+    margin: 1rem;
+}
+
+/*#endregion section_download*/
 #info{
     background-color: rgb(255, 208, 208);
     display: flex;
