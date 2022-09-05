@@ -3,3 +3,49 @@
     margin: 0;
     padding: 0;
 }
+/*#region utilities*/
+
+.col_1{
+    width: calc(100% / 12 * 2);
+}
+
+.col_2{
+    width: calc(100% / 12 * 5);
+}
+
+/*#region utilities*/
+
+/*#region nav*/
+
+#site_header{
+    background-color: aqua;
+}
+
+nav{
+    padding: 1rem;
+}
+
+.nav_bar{
+    padding: 0.5rem;
+    width: 60%;
+    background-color: orange;
+    margin: auto;
+    
+}
+
+.nav_row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ul>li{
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+
+li>a{
+    text-decoration: none;
+}
+/*#endregion nav*/
