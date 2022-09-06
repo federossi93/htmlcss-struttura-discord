@@ -62,7 +62,7 @@ li>a{
 
 #download{
     background-color: blue;
-    display: flex;
+    padding: 2rem 0;
 }
 
 .description{
@@ -70,24 +70,22 @@ li>a{
     height: 400px;
     margin: auto;
     background-color: violet;
-    margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 
 #info{
     background-color: rgb(255, 208, 208);
-    display: flex;
+    padding: 2rem 0;
 }
 
 #info_2{
     background-color: rgb(183, 183, 183);
-    display: flex;
+    padding: 2rem 0;
 }
 
 #info_2{
     background-color: rgb(183, 183, 183);
-    display: flex;
+    padding: 2rem 0;
 }
 
 .description_2{
@@ -96,8 +94,6 @@ li>a{
     width: 80%;
     height: 400px;
     margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 .part_1{
@@ -125,7 +121,7 @@ li>a{
 
 #site_footer{
     background-color: rgb(54, 53, 53);
-    display: flex;
+    padding: 2rem;
 }
 
 .part_3{
