@@ -7,6 +7,8 @@
 :root{
     --bg_header:#255EE9;
     --bg_main:#F6F6F6;
+    --bg_button:#7289DA;
+    --bg_special_button:#23272A;
 }
 
 /*#region utilities*/
@@ -81,6 +83,11 @@ li>a{
     border:none;
 }
 
+#special_button{
+    background-color: var(--bg_special_button);
+    color: white;
+}
+
 
 /*#endregion nav*/
 
@@ -144,6 +151,7 @@ div.study_group>h2{
 div.study_group>p{
     font-size: 1.5rem;
 }
+
 /*#endregion study_group*/
 
 #bg_color{
@@ -159,23 +167,55 @@ div.trovarsi>h2{
 div.trovarsi>p{
     font-size: 1.5rem;
 }
+
+.tecnology{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+div.tecnology>h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+div.tecnology>p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#img_chillin{
+    width: 100%;
+}
+
+div.tecnology>h3{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.downlaod{
+    padding:  1rem 2rem;
+    border-radius: 2rem;
+    border:none;
+    background-color: var(--bg_button);
+    color: white;
+}
+
 /*#endmain*/
 
-#site_footer{
+footer{
     background-color: rgb(54, 53, 53);
     display: flex;
 }
 
-.part_3{
-    height: 400px;
-    background-color: rgb(255, 0, 43);
-    border: 2px dotted black ;
+#site_footer{
+    width: 80%;
+    margin: auto;
 }
 
-.part_4{
-    height: 400px;
-    background-color: rgb(192, 243, 255);
-    border: 2px dotted black ;
+.footer{
+    display: flex;
 }
 
 .footer_bar{
@@ -191,7 +231,7 @@ div.trovarsi>p{
 }
 
 
-#footer_bg{
+/* #footer_bg{
     display: flex;
     background-color: rgb(54, 53, 53);
-}
+} */
